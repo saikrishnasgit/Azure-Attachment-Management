@@ -10,7 +10,5 @@ Basically, Azure Attachment Management functionality (create attachments in blob
 <br>
 Now, with the impersonation…  users who are not even having the Least Permissions required to get Azure Attachment functionality can able to retrieve/download attachments from Azure. Because in the back-end the triggered event gets done the by SYSTEM “on behalf of the initiated user”.
 <br>
-## Download Managed CRM Solution
+## Download Managed CRM Solution <a href="https://github.com/saikrishnasgit/Azure-Attachment-Management/raw/master/MicrosoftLabsAzuereBlobStorage_1_7_0_10_managed.zip" target="_blank">here</a>
 <br>
-<a href="https://github.com/saikrishnasgit/Azure-Attachment-Management/raw/master/MicrosoftLabsAzuereBlobStorage_1_7_0_10_managed.zip" target="_blank">:file_folder:
-</a>
