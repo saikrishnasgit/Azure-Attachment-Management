@@ -4,7 +4,7 @@ Attachment Management solution is an add-on feature to dynamics 365 CRM Online t
 # What's New?
 Enhanced the functionality with Impersonation. Now the retrieve/retrieve multiple CRM service calls are getting created and called by SYSTEM instead of initiating user.
 <br>
-# How it works in Attachment Management 
+# How *impersonation* change, effects Attachment Management 
 Basically, Azure Attachment Management functionality (create attachments in blob, delete attachments in blob, retrieve attachments from blob) works only if the user who is having Least Permissions on “Azure Storage Settings” and “Notes Attachment Entity Settings” entities.
 <br>
 <br>
