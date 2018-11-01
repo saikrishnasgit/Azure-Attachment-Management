@@ -8,7 +8,7 @@ Enhanced the functionality with Plug in Impersonation. Now without Least Permiss
 Azure Attachment Management functionality (create attachments in blob, delete attachments in blob, retrieve attachments from blob) works only if the user who is having Least Permissions on “Azure Storage Settings” and “Notes Attachment Entity Settings” entities.
 <br>
 <br>
-Now, with the impersonation  users who are not even having the Least Permissions required to get Azure Attachment functionality can able to retrieve/download attachments from Azure. Because in the back-end the triggered event gets done the by SYSTEM “on behalf of the initiated user”.
+Now, with the impersonation  users who are not even having the Least Permissions required to get Azure Attachment functionality can able to retrieve/download attachments from Azure. This is been taken care by the impersonation change, which runs the plugins on OOB SYSTM user context.
 <br>
 ## Download CRM Managed Solution <a href="https://github.com/saikrishnasgit/Azure-Attachment-Management/raw/master/MicrosoftLabsAzuereBlobStorage_1_7_0_11_managed.zip" target="_blank">here</a>
 <br>
